@@ -33,6 +33,7 @@ int main()
     delete_at_beginning();
     delete_at_beginning();
     delete_at_beginning();
+    delete_at_beginning();
 
     print_list();
 
@@ -45,7 +46,7 @@ void delete_at_beginning()
 {
     if (head == NULL)
     {
-        printf("[Warning]: cannot remove items from an empty Linked List! \n");
+        printf("[Error]: cannot remove items from an empty Linked List! \n");
         return;
     }
     if (head->next == NULL)
