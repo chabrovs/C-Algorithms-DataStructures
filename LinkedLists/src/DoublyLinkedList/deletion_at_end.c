@@ -1,6 +1,3 @@
-// NOTE: POP function core dumped!. 
-
-
 #include <stdio.h>
 #include <stdlib.h>
 
